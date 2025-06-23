@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aadarsh's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Theme Toggle Button -->
+  <button id="themeToggle" class="theme-btn">🌓 Toggle Theme</button>
+
+  <!-- Header -->
+  <header class="fade-in">
+    <h1>Aadarsh Satle</h1>
+    <p><span id="typedText"></span><span class="cursor">|</span></p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#Education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="fade-in">
+    <h2>👨‍💻 About Me</h2>
+    <p>I’m a passionate Computer Science student with a love for building beautiful and efficient web apps. I enjoy learning new technologies, solving real-world problems, and contributing to open source.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="fade-in">
+    <h2>🧠 Skills</h2>
+    <div class="skills-grid">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <div>React</div>
+      <div>Java</div>
+      <div>MySQL</div>
+      <div>Data Structure & Algorithm </div>
+    </div>
+  </section>
+<!-- Education -->
+<section id="education" class="fade-in">
+  <h2>🎓 Education</h2>
+  <div class="education-entry">
+    <h3>Bachelor of Technology (B.Tech) in Computer Science</h3>
+    <p>Medicaps University, Indore</p>
+    <p>2022 – Present | CGPA : 6.64</p>
+
+  </div>
+  <div class="education-entry">
+    <h3>Senior Secondary (Class XII)</h3>
+    <p>Lotus Public School, Indore</p>
+    <p>2022 | Percentage: 70%</p>
+  </div>
+  <div class="education-entry">
+    <h3>Secondary (Class X)</h3>
+    <p>Scholars' Den H.S School, Khandwa</p>
+    <p>2020 | Percentage: 82%</p>
+  </div>
+</section>
+
+  <!-- Projects -->
+  <section id="projects" class="fade-in">
+    <h2>💼 Projects</h2>
+    <div class="project-card">
+      <h3>CodeZen</h3>
+      <p>A web app which is used by the programmers to learn Java easily. Built with HTML, CSS, JavaScript, PHP & MySQL.</p>
+    </div>
+    <div class="project-card">
+      <h3>🌐 Portfolio Website</h3>
+      <p>This is my Portfolio website! Built with HTML, CSS, and JavaScript.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="fade-in">
+    <h2>📩 Contact</h2>
+    <p>Email: <a href="mailto:aadarshsatle03@gmail.com">aadarshsatle03@gmail.com</a></p>
+    <p>LinkedIn: <a href="#">www.linkedin.com/in/aadarshsatle</a></p>
+    <button onclick="showMessage()">👋 Say Hello</button>
+  </section>
+
+  <!-- Custom Center Popup Modal -->
+<div id="customPopup" class="popup-overlay">
+  <div class="popup-box">
+    <h3>👋 Hello!</h3>
+    <p>Thanks for reaching out. I'll get back to you soon!</p>
+    <button onclick="closePopup()">OK</button>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Aadarsh Satle. All rights reserved.</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
